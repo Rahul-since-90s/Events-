@@ -1,0 +1,240 @@
+
+  
+  img {
+    width: 100%;
+  }
+  
+  /* Showcase Styling */
+  .banner{
+    background-image: url('../public/assets/image/css_banner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+ .bannerdiv{
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+ }
+ .banner:after {
+  content: ' ';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 0;
+}
+  .text-hero{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-hero h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .text-hero p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    border-radius: 2px;
+    /*   margin-top: 3rem; */
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-rounded {
+    border-radius: 5px;
+  }
+  
+  .btn-xl {
+    font-size: 2rem;
+    padding: 1.5rem 2.1rem;
+    border-radius: 7px;
+    text-transform: uppercase;
+  }
+  
+  .btn-lg {
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem;
+    text-transform: uppercase;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 960px) {
+    .showcase {
+      height: 100vh;
+    }
+  
+    .showcase-top .logo-text {
+      color: var(--primary-color);
+      font-family: "Roboto", sans-serif;
+      --webkit-font-smoothing: antialiased;
+      font-size: 38px;
+      position: absolute;
+      top: 30%;
+      left: 5%;
+      transform: translate(0);
+    }
+  
+    .showcase-content h1 {
+      font-weight: 700;
+      font-size: 3.7rem;
+      line-height: 1rem;
+      margin: 0 0 2rem;
+    }
+  
+    .showcase-content p {
+      font-weight: 400;
+      color: #fff;
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      line-height: 1rem;
+      margin: 0 0 2rem;
+    }
+  
+    .btn-xl {
+      font-size: 1.5rem;
+      padding: 1.2rem 1.8rem;
+      text-transform: uppercase;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .showcase::after {
+      box-shadow: inset 75px 50px 100px #000000, inset -75px -50px 100px #000000;
+    }
+  
+    .showcase {
+      height: 100vh;
+    }
+  
+    .showcase-top .logo-text {
+      font-size: 1.5rem;
+      top: 30%;
+      left: 15%;
+      transform: translate(0);
+    }
+  
+    .showcase-content h1 {
+      font-size: 1.8rem;
+      line-height: 1rem;
+    }
+  
+    .showcase-content p {
+      font-size: 1.2rem;
+    }
+  
+    .btn {
+      margin-right: 0.1rem;
+    }
+  
+    .btn-xl {
+      font-size: 1.2rem;
+      padding: 1rem 1.2rem;
+      text-transform: uppercase;
+    }
+  }
+  .event-date{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .event-card{
+    position: relative;
+    /* flex-direction: column; */
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+  }
+  .event-details{
+    position: relative;
+    /* display: list-item; */
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .event-header-color{
+    color: #419f26;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .event-details-color{
+    color: #06594f;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  /* Global font size settings */
+.event-details-color {
+  font-size: 1.5rem;
+}
+
+.event-header-color {
+  font-size: 1.2rem;
+}
+
+/* Media queries for different screen sizes */
+/* Large screens (desktops) */
+@media only screen and (min-width: 1200px) {
+  .event-details-color {
+    font-size: 2rem;
+  }
+  .event-header-color {
+    font-size: 1.5rem;
+  }
+}
+
+/* Medium screens (laptops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .event-details-color {
+    font-size: 1.8rem;
+  }
+  .event-header-color {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small screens (tablets) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .event-details-color {
+    font-size: 1.6rem;
+  }
+  .event-header-color {
+    font-size: 1.2rem;
+  }
+}
+
+/* Extra small screens (mobiles) */
+@media only screen and (max-width: 767px) {
+  .event-details-color {
+    font-size: 1.4rem;
+  }
+  .event-header-color {
+    font-size: 1.1rem;
+  }
+}

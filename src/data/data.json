@@ -1,0 +1,49 @@
+[
+    {
+        "eventId": 1,
+        "event_name": "Summer Olympics Opening Ceremony",
+        "event_category": "Olympics",
+        "start_time": "2024-07-26T20:00:00Z",
+        "end_time": "2024-07-26T23:00:00Z",
+         "event_details_header":"What time does the Olympics opening ceremony start?",
+         "event_details":"The live NBC broadcast kicks off with a pre-show at noon ET Friday, and the ceremony itself begins at 7:30 p.m. Paris time, or 1:30 p.m. ET."
+
+    },
+    {
+        "eventId": 2,
+        "event_name": "Wimbledon Final",
+        "event_category": "Tennis",
+        "start_time": "2024-07-26T20:00:00Z",
+        "end_time": "2024-07-26T23:00:00Z",
+        "event_details_header":"Championships Schedule",
+          "event_details":"The Championships 2024 will be played over 14 days from Monday 1 - Sunday 14 July. The Championships begins with two days of Gentlemen's and Ladies' Singles matches before Gentlemen's and Ladies' Doubles start on Wednesday, and Mixed Doubles on Friday."
+
+    },
+    {
+        "eventId": 3,
+        "event_name": "NBA Finals Game 7",
+        "event_category": "Basketball",
+        "start_time": "2024-06-18T21:00:00Z",
+        "end_time": "2024-06-18T23:30:00Z",
+         "event_details_header":"NBA Finals Game 7",
+           "event_details":"1951: Rochester 79, New York 75. The Knicks were part of the first two Game 7s in NBA Finals history -- and unable to win either. In '51, it was the Royals of Rochester, currently the Sacramento Kings, who prevailed for the franchise's first and only NBA title."
+    },
+    {
+        "eventId": 4,
+        "event_name": "Tour de France Stage 21",
+        "event_category": "Cycling",
+        "start_time": "2024-07-21T10:00:00Z",
+        "end_time": "2024-07-21T16:00:00Z",
+         "event_details_header":"Tour de France Stage 21",
+           "event_details":"Stage 21 this year will be a time trial, the first time-trial finale since 1989. It will be a 33.7-kilometer ride from Monaco to Nice that will offer all kinds of terrain, which many of the riders have seen before when competing in the annual Paris-Nice race"
+    },
+    {
+        "eventId": 5,
+        "event_name": "Super Bowl LVIII",
+        "event_category": "Football",
+        "start_time": "2024-02-11T18:30:00Z",
+        "end_time": "2024-02-11T22:00:00Z",
+         "event_details_header":"Super Bowl LVIII",
+           "event_details":"Coming Soon..."
+    }
+]
